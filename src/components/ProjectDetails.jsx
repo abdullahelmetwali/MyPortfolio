@@ -43,7 +43,7 @@ const ProjectDetails = () => {
           </h1>
         </div>
         <div className="p-10">
-          <img loading="lazy"
+          <img  
             src={displayedProject.projectMainImg}
             alt={displayedProject.projectName}
             className="rounded-xl"

@@ -59,7 +59,7 @@ const ContactBot = (props) => {
           <h2 className="textAcorn text-xl">Here&apos;s, Abdullah Bot.</h2>
           <p className="text-sm">Ask me a question.</p>
         </div>
-        <img loading="lazy"
+        <img  
           src={CloseSvg}
           onClick={() => botView()}
           className=" cursor-pointer"

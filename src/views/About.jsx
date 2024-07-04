@@ -50,7 +50,7 @@ lastArray.push(OutSideWork[firstItem] , OutSideWork[secondItem])
       </div>
       <main className="p-10 fadeUp grid grid-cols-2 justify-items-center items-center mob:grid-cols-1 mob:gap-10 mob:items-center">
         <div className="w-1/2 mob:w-full">
-            <img loading="lazy" src="/imgs/me.jpg" alt="memoji" className=" brightness-[0.6] rounded rounded-tl-full rounded-tr-full"/>
+            <img   src="/imgs/me.jpg" alt="memoji" className=" brightness-[0.6] rounded rounded-tl-full rounded-tr-full"/>
         </div>
         <div>
             <h2 className="textAcorn text-[4vw] w-fit mob:text-[7vw]">
@@ -91,7 +91,7 @@ lastArray.push(OutSideWork[firstItem] , OutSideWork[secondItem])
               onMouseEnter={() => setHoverIndex(index)}
               onMouseLeave={() => setHoverIndex(null)}
             >
-              <img loading="lazy" src={item.img} className="object-cover w-full h-[40rem] rounded-xl object-center" />
+              <img   src={item.img} className="object-cover w-full h-[40rem] rounded-xl object-center" />
             </div>
           </div>
           <div

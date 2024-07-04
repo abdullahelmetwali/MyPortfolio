@@ -24,7 +24,7 @@ const Fun = () => {
                 <h2 className='textAcorn text-2xl tracking-wide mob:text-xl'>{proj.projectName}</h2>
                 <p className='textUbuntu text-xl tracking-wide mob:text-base'>{proj.projectCaption}</p>
               </div>
-              <div className='w-1/3 mob:w-full'><img loading="lazy" src={proj.projectMainImg} alt={proj.projectName} className=' bg-[#343434] rounded-2xl'/></div>
+              <div className='w-1/3 mob:w-full'><img   src={proj.projectMainImg} alt={proj.projectName} className=' bg-[#343434] rounded-2xl'/></div>
              </a>
             </div>
           ))

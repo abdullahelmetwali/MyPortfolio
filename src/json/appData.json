@@ -1,0 +1,178 @@
+{
+    "WorkProjects" : [
+        {
+        "projectName": "Black Wolf E-Commerce",
+        "projectMainImg": "/imgs/BlackWolfECommerceMain.png",
+        "projectOverView": "I made this platform, and so improved performance by optimizing search functionalities, cart management processes, and product retrieval speeds. My enhancements include introducing animations across the site to enhance user engagement and navigation. Users now receive immediate error messages when attempting to add out-of-stock or duplicate products to their carts. I have expanded all products offerings to cater to a broader range of user interests, and streamlined the process for easily adding items from both the homepage and product pages. Additionally, I have developed new user views such as 'About,' 'Account,' and 'Register' pages, integrating seamless account creation and management through REST API. Our product catalog now features intuitive filters and detailed product information, ensuring a consistently responsive design that optimizes the user experience for all.",
+        "projectCaption": "When effortless shopping meets sleek design on a website ...",
+        "projectLiveServer": "https://abdullahelmetwali.github.io/BlackWolfECommerce/",
+        "projectRepo" : "https://github.com/abdullahelmetwali/BlackWolfECommerce",
+        "projectTechnologies": [
+            "JavaScript",
+            "JSON",
+            "Vue",
+            "Vuex",
+            "VueRouter",
+            "TailwindUI",
+            "RESTAPIs"
+        ]
+    },
+    {
+        "projectName": "Gym Noter",
+        "projectMainImg": "/imgs/GymNoterMain.png",
+        "projectOverView": "Create user , Search and Discover over 1300 exercises. Choose exercises by body part, equipment, target muscle group, or fitness goal to customize your workout routine, Add it to your . Whether you&apos;re aiming to build strength, improve flexibility, or enhance mascular fitness, this website ensures you find the perfect exercises to achieve your fitness aspirations.",
+        "projectCaption": "This will be your favourite exercises website .",
+        "projectLiveServer": "https://gymnoter.netlify.app/",
+        "projectRepo" : "https://github.com/abdullahelmetwali/GymNoter",
+         "projectTechnologies": [
+            "JavaScript",
+            "React",
+            "Redux",
+            "ReactRouter",
+            "TailwindUI",
+            "RESTAPIs"
+        ]
+    },
+    {
+        "projectName": "Food Zero Restaurant",
+        "projectMainImg": "/imgs/FoodZeroRestaurantMain.png",
+        "projectOverView": "I am proud to present Food Zero Restaurant, a strictly crafted restaurant platform reflecting my dedication and passion. Throughout its development, I have prioritized creating a responsive design to ensure a seamless experience across all devices. The platform features five thoughtfully designed pages that cater to every aspect of the dining experience, from a welcoming homepage to detailed menu pages, reservation options,portfolio page, blogs page and a contact page for seamless interaction. Real-time notifications keep users informed about specials and updates, enhancing their dining journey. Continuously expanding our culinary offerings, I provide a diverse menu that caters to various tastes, ensuring a comprehensive dining experience. Users can effortlessly explore detailed information and enjoy seamless interactions with intuitive features. Food Zero Restaurant is a testament to my commitment to excellence, offering a user-friendly interface that adapts perfectly to any screen size.",
+        "projectCaption": "Take a CLASSY dinner, In CLASSY site .",
+        "projectLiveServer": "https://abdullahelmetwali.github.io/FoodZeroRestaurant/",
+        "projectRepo" : "https://github.com/abdullahelmetwali/FoodZeroRestaurant",
+        "projectTechnologies": [
+            "HTML",
+            "CSS",
+            "SCSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "projectName": "Damien Braun Gallery",
+        "projectMainImg": "/imgs/DamienBraunGalleryMain.png",
+        "projectOverView": "Explore the captivating world of photography through my Vue.js and Tailwind CSS-powered portfolio. Immerse yourself in a visually stunning showcase designed to highlight my passion and creativity behind scenes. Each page of this portfolio is strictly crafted to offer a seamless browsing experience, ensuring effortless navigation and stunning visual presentation on every device. Discover a collection of finest works, from breathtaking landscapes to intimate portraits, each accompanied by detailed descriptions that provide insights into artistic vision. With a focus on user experience.",
+        "projectCaption": "Explore a portfolio that celebrates the artistry of photography .",
+        "projectLiveServer": "https://abdullahelmetwali.github.io/DamienBraunGallery/",
+        "projectRepo" : "https://github.com/abdullahelmetwali/DamienBraunGallery",
+        "projectTechnologies": [
+            "JavaScript",
+            "JSON",
+            "Vue",
+            "VueRouter",
+            "TailwindUI"
+        ]
+    },
+    {
+        "projectName": "Eduford University",
+        "projectMainImg": "/imgs/UniversitySmallWebsiteMain.png",
+        "projectOverView": "Welcome to my first website, a nostalgic journey through my long-standing passion for web development. Inspired by old memories and classic styles, each element and design choice reflects my personal growth and commitment to learning. Join me in revisiting old memories. ",
+        "projectCaption": "Old is Gold .",
+        "projectLiveServer": "https://abdullahelmetwali.github.io/university-small-website/",
+        "projectRepo" : "https://github.com/abdullahelmetwali/university-small-website",
+        "projectTechnologies": [
+            "HTML",
+            "CSS"
+        ]
+    }
+    ],
+    "FunProjects" : [
+        {
+            "projectName" : "Age Calculator",
+            "projectCaption" : "Write your birthday and see HOW OLD ARE YOU?",
+            "projectLiveServer" : "https://abdullahelmetwali.github.io/AgeCalculator/",
+            "projectMainImg" : "/imgs/calculator-icon.png"
+        },
+        {
+            "projectName" : "Random Quote Generator",
+            "projectCaption" : "Click on DICE and discover your daily dose of inspiration.",
+            "projectLiveServer" : "https://abdullahelmetwali.github.io/AdviceGenerator/",
+            "projectMainImg" : "/imgs/doublequote.png"
+        }
+    ],
+    "BotData" : {
+        "botIntro" : ["Hi!" , "I'm Abdullah Bot . I'm here to help you with any question you may need about Abdullah's Work . " ,"How can I help you today ?"],
+        "botQuestions" : ["Sending you a digital high-five!" , "What technologies do you use?" , "How do you handle responsive design challenges?" , "Have you integrated any third-party APIs into your projects?" , "We'd like to hire you"],
+        "botAnswers" : [
+            {
+                "question" : "Sending you a digital high-five!",
+                "answers" : ["Haha Hello!" , "Thanks for these high-five 😁" , "I hope you've had a pleasant time viewing my work."]
+            },
+            {
+                "question" : "What technologies do you use?",
+                "answers" : ["Here's what I use" , "HTML, CSS, JavaScript, SCSS (Sass), ReactJS (including React Router & Redux ), VueJS (including Vuex ), TailwindUI for styling and NPM for package managment"]
+            },
+            {
+                "question" : "How do you handle responsive design challenges?",
+                "answers" : ["The approach I always use in responsive design is" , "To start with designing for larger screens, utilizing flexbox and grid layouts along with media queries to achieve full responsiveness. After completing each task in the project, I test it across various devices and screen resolutions using browser developer tools and real devices."]
+            },
+            {
+                "question" : "Have you integrated any third-party APIs into your projects?" ,
+                "answers" : ["Sure , I've integrated several third-party APIs into my projects" ,"I use it to enchance functionality and accessing more external data. For example, I've use RapidAPI for getting all exercises and full-detail exercise instructions, And also I used DummyJsonAPI , to get users and create a user", "It's important for ensuring proper error handling and data formatting to seamlessly integrate with my applications."]
+            },
+            {
+                "question" : "We'd like to hire you",
+                "answers" : ["Ok,Great" ,"Excited about what lies ahead! 🕺" , "Feel free to message me, and let's discuss further!" , "abdullahelmetwali@icloud.com" ]
+            }
+        ]
+    },
+    "WorkItems" : [
+         {
+            "title" : "Define Goals",
+            "article" : "Understanding project requirements and goals , in case defining specific user stories and use cases to know how user will interact with the application , features based on importance ."
+        },
+        {
+            "title" : "Team Player",
+            "article" : "Good product is not produced from nothingness , it's always created from a collaborative enviroment , so I aim to be helpful and friendly with my teammates ."
+        },
+        {
+            "title" : "Inclusive Excellence",
+            "article" : "I am dedicated to ensuring that everything I create is accessible to all individuals. Because It is what it is — it emphasizes my belief that accessible products enhance the quality of life for many, not just a select few ."
+        },
+        {
+            "title" : "Persist in Trying",
+            "article" : "In every project, I embrace a mindset that welcomes change and encourages experimentation. I know that not every idea will succeed, but each attempt presents an invaluable opportunity for growth and refinement ."
+        }
+    ],
+    "OutSideWork" : [
+        {
+            "title" : "Life Time",
+            "img" : "/imgs/playstation.jpg"
+        },
+        {
+            "title" : "Alexandria, Egypt",
+            "img" : "/imgs/stanley.jpg"
+        },
+        {
+            "title" : "Cairo, Egypt",
+            "img" : "/imgs/biliardo.jpg"
+        },
+        {
+            "title" : "Dahab, Egypt",
+            "img" : "/imgs/dahab.jpg"
+        },
+        {
+            "title" : "Jeddah, KSA",
+            "img" : "/imgs/jeddah.jpg"
+        },
+        {
+            "title" : "Relaxing Mode",
+            "img" : "/imgs/music.jpg"
+        },
+        {
+            "title" : "Marsa Matrouh, Egypt",
+            "img" : "/imgs/matrouh.jpg"
+        },
+        {
+            "title" : "Comfort Zone",
+            "img" : "/imgs/gym.jpg"
+        },
+        {
+            "title" : "Dahab Sunset, Egypt",
+            "img" : "/imgs/sunset.jpg"
+        },
+        {
+            "title" : "Ras ElBar, Egypt",
+            "img" : "/imgs/raselbar.jpg"
+        }
+    ]
+}

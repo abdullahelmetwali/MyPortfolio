@@ -9,7 +9,7 @@ const Fun = () => {
        <>
         <div className="text-center uncopyable fadeUp my-36 mob:my-16 mob:px-3">
         <h1 className="title uncopyable">
-            Fun .
+            Fun.
         </h1>
         <h2 className="textAcorn fadeUp tracking-wider text-lg my-8">
           Collection of sites I&apos;ve created, for fun .

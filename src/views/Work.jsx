@@ -21,9 +21,9 @@ const Work = () => {
     <>
       <div className="text-center uncopyable fadeUp my-36 mob:my-16 mob:px-3">
         <h1 className="title uncopyable">
-          <span>Hi. I&apos;m Abdullah .</span>
+          <span>Hi. I&apos;m Abdullah.</span>
           <br />
-          <span>A Frontend .</span>
+          <span>A Frontend.</span>
         </h1>
         <h2 className="textAcorn fadeUp tracking-wider text-lg my-8">
           Turning design to code, engaging frontend solutions with Highly

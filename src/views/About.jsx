@@ -45,7 +45,7 @@ lastArray.push(OutSideWork[firstItem] , OutSideWork[secondItem])
         <>
         <div className="text-center uncopyable fadeUp my-36 mob:my-16 mob:px-3">
         <h1 className="title uncopyable">
-        I&apos;m Abdullah .
+        I&apos;m Abdullah.
         </h1>
       </div>
       <main className="p-10 fadeUp grid grid-cols-2 justify-items-center items-center mob:grid-cols-1 mob:gap-10 mob:items-center">

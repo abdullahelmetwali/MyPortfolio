@@ -19,12 +19,12 @@ const Fun = () => {
         {
           FunProjects.map((proj , index) => (
             <div key={index} className='p-5 rounded-2xl bg-[#0f0e0e] transform transition-all duration-300 ease-in-out delay-75 hover:scale-90'>
-             <a href={proj.projectLiveServer} className='flex gap-20 items-center mob:gap-10'>
+             <a target="_blank" href={proj.projectLiveServer} className='flex gap-20 items-center mob:gap-10'>
                <div>
                 <h2 className='textAcorn text-2xl tracking-wide mob:text-xl'>{proj.projectName}</h2>
                 <p className='textUbuntu text-xl tracking-wide mob:text-base'>{proj.projectCaption}</p>
               </div>
-              <div className='w-1/3 mob:w-full'><img   src={proj.projectMainImg} alt={proj.projectName} className=' bg-[#343434] rounded-2xl'/></div>
+              <div className='w-1/3 mob:w-full'><img src={proj.projectMainImg} alt={proj.projectName} className=' bg-[#343434] rounded-2xl'/></div>
              </a>
             </div>
           ))

@@ -91,7 +91,7 @@ const ContactBot = (props) => {
             <div key={answerInd} className="grid">
               {
               answer !== "abdullahelmetwali@icloud.com" ? <p className="bg-[#373737a1] px-4 py-2 my-1 w-fit rounded-lg" key={answerInd}> {answer} </p> 
-              : <a href={`mailto:${answer}`} className='border-[#5e5e5ec0] cursor-pointer border-[1px] px-4 py-2 my-1  w-fit rounded-full'> Send Message </a> 
+              : <a href={`mailto:${answer}`} target="_blank" className='border-[#5e5e5ec0] cursor-pointer border-[1px] px-4 py-2 my-1  w-fit rounded-full'> Send Message </a> 
             }
             </div>
           ))}

@@ -25,11 +25,11 @@ const About = () => {
     ]
     useEffect(() => {
         document.title =  'Abdullah • About'
-// const url = 'https://api.weatherapi.com/v1/current.json?key=009289972cfc4cbc9cc143815240107&q=Cairo&aqi=no'
-//     fetch(url).then(res => res.json()).then(res => {
-//       temp.current = res.current.temp_c
-//       weather.current = res.current.condition.text
-//     })
+const url = 'https://api.weatherapi.com/v1/current.json?key=009289972cfc4cbc9cc143815240107&q=Cairo&aqi=no'
+    fetch(url).then(res => res.json()).then(res => {
+      temp.current = res.current.temp_c
+      weather.current = res.current.condition.text
+    })
 const lastArray = []
 const OutSideWork = appData.OutSideWork
 const firstItem = Math.floor(Math.random() * OutSideWork.length)

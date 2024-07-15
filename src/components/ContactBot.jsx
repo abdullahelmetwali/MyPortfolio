@@ -35,15 +35,15 @@ const ContactBot = (props) => {
     setNowAnswers(quesObj.answers || []);
     setShowBotQuestions(false);
 
-    // Reveal answers one by one
+    // Add answers one by one
     setVisibleAnswers([]);
     quesObj.answers?.map((answer, index) => {
       setTimeout(
         () => {
           setVisibleAnswers((prev) => [...prev, answer]);
         },
-        (index + 1) * 1000
-      ); // Reveal each answer one by one every second
+        (index + 1) * 1000 // Show each answer one by one every second
+      ); 
     });
   };
 
@@ -52,7 +52,7 @@ const ContactBot = (props) => {
 
   return (
     <section
-      className={` -bottom-full right-3 w-1/3 h-auto mob:w-[98%] mob:right-1 contactBot ${contactBotView ? "bottom-3" : "-bottom-full"}`}
+      className={` -bottom-full right-3 w-1/3 h-auto mob:w-[98%] mob:right-1 contactBot mob:h-[75dvh] ${contactBotView ? "bottom-3" : "-bottom-full"}`}
     >
       <header className="bg-[#373737fe] flex justify-between items-center  w-full tracking-wide rounded-tr-xl textAcorn rounded-tl-xl p-4">
         <div>

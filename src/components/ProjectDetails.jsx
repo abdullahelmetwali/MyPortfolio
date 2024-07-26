@@ -1,6 +1,6 @@
 import { useNavigate, useParams } from "react-router-dom";
 import jsonData from "../json/appData.json";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo } from "react";
 
 const ProjectDetails = () => {
   const navigate = useNavigate();
@@ -10,7 +10,7 @@ const ProjectDetails = () => {
     (proj) => proj.projectName.replaceAll(" ", "").toLowerCase() === projectName
   );
 
- const [pageTitle , setPageTitle] = useState('')
+//  const [pageTitle , setPageTitle] = useState('')
 
 
   const nextProject = useMemo(() => {
@@ -27,13 +27,13 @@ const ProjectDetails = () => {
   }, [displayedProject , WorkProjects]);
 
   useEffect(() => {
-    setPageTitle(displayedProject.projectName)
+    // setPageTitle(displayedProject.projectName)
     window.scrollTo({
       top: 0,
       behavior: "auto",
     });
-    document.title = `Abdullah • ${pageTitle}`;
-  }, [displayedProject.projectName , pageTitle]);
+    document.title = `Abdullah • ${displayedProject.projectName}`;
+  }, [displayedProject.projectName]);
   return (
     <>
       <section className="fadeUp text-center uncopyable">

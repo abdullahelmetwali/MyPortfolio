@@ -20,7 +20,7 @@
     {
         "projectName": "Gym Noter",
         "projectMainImg": "/imgs/GymNoterMain.png",
-        "projectOverView": "Create user , Search and Discover over 1300 exercises. Choose exercises by body part, equipment, target muscle group, or fitness goal to customize your workout routine, Add it to your . Whether you&apos;re aiming to build strength, improve flexibility, or enhance mascular fitness, this website ensures you find the perfect exercises to achieve your fitness aspirations.",
+        "projectOverView": "Create user , Search and Discover over 1300 exercises. Choose exercises by body part, equipment, target muscle group, or fitness goal to customize your workout routine, Add it to your account notes. Add your notes on exercise if It needed . Whether you're aiming to build strength, improve flexibility, or enhance mascular fitness, this website ensures you find the perfect exercises to achieve your fitness aspirations.",
         "projectCaption": "This will be your favourite exercises website .",
         "projectLiveServer": "https://gymnoter.netlify.app/",
         "projectRepo" : "https://github.com/abdullahelmetwali/GymNoter",

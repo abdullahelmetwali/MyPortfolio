@@ -27,7 +27,6 @@ const ProjectDetails = () => {
   }, [displayedProject , WorkProjects]);
 
   useEffect(() => {
-    // setPageTitle(displayedProject.projectName)
     window.scrollTo({
       top: 0,
       behavior: "auto",

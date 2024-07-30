@@ -5,7 +5,7 @@
         "projectMainImg": "/imgs/BlackWolfECommerceMain.png",
         "projectOverView": "I made this platform, and so improved performance by optimizing search functionalities, cart management processes, and product retrieval speeds. My enhancements include introducing animations across the site to enhance user engagement and navigation. Users now receive immediate error messages when attempting to add out-of-stock or duplicate products to their carts. I have expanded all products offerings to cater to a broader range of user interests, and streamlined the process for easily adding items from both the homepage and product pages. Additionally, I have developed new user views such as 'About,' 'Account,' and 'Register' pages, integrating seamless account creation and management through REST API. Our product catalog now features intuitive filters and detailed product information, ensuring a consistently responsive design that optimizes the user experience for all.",
         "projectCaption": "When effortless shopping meets sleek design on a website ...",
-        "projectLiveServer": "https://abdullahelmetwali.github.io/BlackWolfECommerce/",
+        "projectLiveServer": "https://black-wolf-ecommerce.netlify.app/",
         "projectRepo" : "https://github.com/abdullahelmetwali/BlackWolfECommerce",
         "projectTechnologies": [
             "JavaScript",
@@ -96,8 +96,8 @@
         }
     ],
     "BotData" : {
-        "botIntro" : ["Hi!" , "I'm Abdullah Bot . I'm here to help you with any question you may need about Abdullah's Work . " ,"How can I help you today ?"],
-        "botQuestions" : ["Sending you a digital high-five!" , "What technologies do you use?" , "How do you handle responsive design challenges?" , "Have you integrated any third-party APIs into your projects?" , "We'd like to hire you"],
+        "botIntro" : ["Hi!" , "I'm Abdullah's Bot . I'm here to help you with any question you may need about Abdullah's Work . " ,"How can I help you today ?"],
+        "botQuestions" : ["Sending you a digital high-five!" ,  "What technologies do you use?" , "How do you handle responsive design challenges?" , "Have you integrated any third-party APIs into your projects?" , "Can you talk about your experience ? ", "We'd like to hire you"],
         "botAnswers" : [
             {
                 "question" : "Sending you a digital high-five!",
@@ -105,7 +105,11 @@
             },
             {
                 "question" : "What technologies do you use?",
-                "answers" : ["Here's what I use" , "HTML, CSS, JavaScript, SCSS (Sass), ReactJS (including React Router & Redux ), VueJS (including Vuex ), TailwindUI for styling and NPM for package managment"]
+                "answers" : ["Here's what I use" , "HTML, CSS, JavaScript, SCSS (Sass), ReactJS (including React Router & Redux ), VueJS (including Vuex ), TailwindUI for styling." , "NPM for package managment , Vite for project building and Jest for testing."]
+            },
+            {
+                "question" : "Can you talk about your experience ? ",
+                "answers" : ["Yeah Sure!" , "I'm a self-motivated and dedicated self-taught Front-End Developer. I started my journey by learning technologies like HTML, CSS, and JavaScript through YouTube and other online resources." ,"My second step was getting a training opportunity at Reeras Technologies, where I gained practical experience in HTML and CSS. After that, I continued learning on my own, deepening my knowledge and expanding my skills." ,"Currently, I am a Front-End Intern at NexusDevops, where I have been working since June 29, 2024. In addition, I hold another Front-End Internship at Azzrk, starting from July 7, 2024. These roles have provided me with valuable hands-on experience and the opportunity to work on real-world projects." , "Additionally, I am part of a Front-End team at Hackathon Group, working on an exciting project." , "Believing in Allah and with a passion for continuous learning, my journey in front-end development continues to evolve."]
             },
             {
                 "question" : "How do you handle responsive design challenges?",

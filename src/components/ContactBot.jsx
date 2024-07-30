@@ -56,7 +56,7 @@ const ContactBot = (props) => {
     >
       <header className="bg-[#373737fe] flex justify-between items-center  w-full tracking-wide rounded-tr-xl textAcorn rounded-tl-xl p-4">
         <div>
-          <h2 className="textAcorn text-xl">Here&apos;s, Abdullah Bot.</h2>
+          <h2 className="textAcorn text-xl">Here&apos;s, Abdullah&apos;s Bot.</h2>
           <p className="text-sm">Ask me a question.</p>
         </div>
         <img  

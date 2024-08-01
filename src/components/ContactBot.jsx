@@ -47,9 +47,6 @@ const ContactBot = (props) => {
     });
   };
 
-
-
-
   return (
     <section
       className={` -bottom-full right-3 w-1/3 h-auto mob:w-[98%] mob:right-1 contactBot mob:h-[75dvh] ${contactBotView ? "bottom-3" : "-bottom-full"}`}
@@ -59,7 +56,7 @@ const ContactBot = (props) => {
           <h2 className="textAcorn text-xl">Here&apos;s, Abdullah&apos;s Bot.</h2>
           <p className="text-sm">Ask me a question.</p>
         </div>
-        <img  
+        <img 
           src={CloseSvg}
           onClick={() => botView()}
           className=" cursor-pointer"

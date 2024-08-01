@@ -19,12 +19,14 @@ const Fun = () => {
         {
           FunProjects.map((proj , index) => (
             <div key={index} className='p-5 rounded-2xl bg-[#0f0e0e] transform transition-all duration-300 ease-in-out delay-75 hover:scale-90'>
-             <a target="_blank" href={proj.projectLiveServer} className='flex justify-between items-center mob:gap-10 mob:flex-col'>
-               <div>
+             <a target="_blank" href={proj.projectLiveServer} className='grid grid-cols-3 items-center justify-items-end mob:gap-10 '>
+               <div className='col-span-2'>
                 <h2 className='textAcorn text-2xl tracking-wide mob:text-xl'>{proj.projectName}</h2>
                 <p className='textUbuntu text-xl w-[80%] tracking-wide mob:text-base'>{proj.projectCaption}</p>
               </div>
-              <div className='w-1/3 mob:w-full'><img src={proj.projectMainImg} alt={proj.projectName} className=' bg-black rounded-2xl'/></div>
+              <div className='col-span-1 w-3/4 bg-black p-9 rounded-xl mob:w-full mob:p-3'>
+                <img loading="lazy" src={proj.projectMainImg} alt={proj.projectName}/>
+                </div>
              </a>
             </div>
           ))
@@ -34,4 +36,3 @@ const Fun = () => {
     )
 }
 export default Fun
-// 343434

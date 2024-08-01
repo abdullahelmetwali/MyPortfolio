@@ -80,19 +80,19 @@
             "projectName" : "Age Calculator",
             "projectCaption" : "Enter your birthdate to find out how many years old you are now.",
             "projectLiveServer" : "https://abdullahelmetwali.github.io/AgeCalculator/",
-            "projectMainImg" : "/imgs/calculator-icon.png"
+            "projectMainImg" : "/imgs/calculator.png"
         },
         {
             "projectName" : "Random Quote Generator",
             "projectCaption" : "Click on DICE and discover your daily dose of inspiration.",
             "projectLiveServer" : "https://abdullahelmetwali.github.io/AdviceGenerator/",
-            "projectMainImg" : "/imgs/doublequote.png"
+            "projectMainImg" : "/imgs/quote.png"
         },
         {
             "projectName" : "Rest Countries API",
             "projectCaption" : "Look up and explore the latest information and statistics about your country.",
             "projectLiveServer" : "https://rest-countries-frendmentor.netlify.app/",
-            "projectMainImg" : "/imgs/rest-countries.png"
+            "projectMainImg" : "/imgs/map-location.png"
         }
     ],
     "BotData" : {

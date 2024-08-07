@@ -105,7 +105,7 @@
             },
             {
                 "question" : "What technologies do you use?",
-                "answers" : ["Here's what I use" , "HTML, CSS, JavaScript, SCSS (Sass), ReactJS (including React Router & Redux ), VueJS (including Vuex ), TailwindUI for styling." , "NPM for package managment , Vite for project building and Jest for testing."]
+                "answers" : ["Here's what I use" , "HTML, CSS, JavaScript, SCSS (Sass), ReactJS (including React Router & Redux ), VueJS (including Vuex ), TailwindUI for styling." , "NPM for package management , Vite for project building and Jest for testing."]
             },
             {
                 "question" : "Can you talk about your experience ? ",

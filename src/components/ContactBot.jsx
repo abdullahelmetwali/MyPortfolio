@@ -49,7 +49,7 @@ const ContactBot = (props) => {
 
   return (
     <section
-      className={` -bottom-full right-3 w-1/3 h-auto mob:w-[98%] mob:right-1 contactBot mob:h-[75dvh] ${contactBotView ? "bottom-0" : "-bottom-full"}`}
+      className={` -bottom-full right-3 w-1/3 h-auto mob:w-[98%] mob:right-1 contactBot mob:h-[75dvh] ${contactBotView ? "bottom-3" : "-bottom-full"}`}
     >
       <header className="bg-[#373737fe] flex justify-between items-center  w-full tracking-wide rounded-tr-xl textAcorn rounded-tl-xl p-4">
         <div>

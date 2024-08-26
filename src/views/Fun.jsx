@@ -1,9 +1,6 @@
-import { useEffect } from 'react';
 import appData from '../json/appData.json'
 const Fun = () => {
-  useEffect(() => {
-    document.title =  'Abdullah • Fun'
-  })
+  document.title =  'Abdullah • Fun'
     const FunProjects = appData.FunProjects;
     return (
        <>

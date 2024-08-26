@@ -6,12 +6,11 @@ const ProjectDetails = () => {
   const navigate = useNavigate();
   const { projectName } = useParams();
   const WorkProjects = jsonData.WorkProjects;
-  const displayedProject = WorkProjects?.find(
-    (proj) => proj.projectName.replaceAll(" ", "").toLowerCase() === projectName
-  );
-
-//  const [pageTitle , setPageTitle] = useState('')
-
+  const displayedProject = useMemo(() => {
+    return WorkProjects?.find(
+      (proj) => proj.projectName.replaceAll(" ", "").toLowerCase() === projectName
+    );
+  } , [projectName ,WorkProjects])
 
   const nextProject = useMemo(() => {
     const getNextElement = () => {
@@ -24,7 +23,7 @@ const ProjectDetails = () => {
       return null;
     };
     return getNextElement();
-  }, [displayedProject , WorkProjects]);
+  }, [displayedProject, WorkProjects]);
 
   useEffect(() => {
     window.scrollTo({
@@ -42,7 +41,7 @@ const ProjectDetails = () => {
           </h1>
         </div>
         <div className="p-10">
-          <img  
+          <img
             src={displayedProject.projectMainImg}
             alt={displayedProject.projectName}
             className="rounded-xl"
@@ -76,10 +75,10 @@ const ProjectDetails = () => {
         <div className="my-5">
           <h2 className="text-4xl textAcorn">Code-Detail .</h2>
           <div className="text-2xl textUbuntu text-[#78797c]">
-            <a href={displayedProject.projectRepo} target="_blank">
-              GitHub Repo |{" "}
-            </a>
-            <a href={displayedProject.projectLiveServer} target="_blank">
+            <a href={displayedProject.projectRepo} target="_blank" className="hover:text-[#e9e9e9]">
+              GitHub Repo
+            </a> | {" "}
+            <a href={displayedProject.projectLiveServer} target="_blank" className="hover:text-[#e9e9e9]">
               LiveServer
             </a>
           </div>

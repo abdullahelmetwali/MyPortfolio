@@ -54,7 +54,7 @@
       "projectMainImg": "/imgs/DamienBraunGalleryMain.png",
       "projectOverView": "Explore the captivating world of photography through my Vue.js and Tailwind CSS-powered portfolio. Immerse yourself in a visually stunning showcase designed to highlight my passion and creativity behind scenes. Each page of this portfolio is strictly crafted to offer a seamless browsing experience, ensuring effortless navigation and stunning visual presentation on every device. Discover a collection of finest works, from breathtaking landscapes to intimate portraits, each accompanied by detailed descriptions that provide insights into artistic vision. With a focus on user experience.",
       "projectCaption": "Explore a portfolio that celebrates the artistry of photography .",
-      "projectLiveServer": "https://abdullahelmetwali.github.io/DamienBraunGallery/",
+      "projectLiveServer": "https://damien-braun-portfolio.netlify.app/",
       "projectRepo": "https://github.com/abdullahelmetwali/DamienBraunGallery",
       "projectTechnologies": [
         "JavaScript",

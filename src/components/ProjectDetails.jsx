@@ -10,7 +10,7 @@ const ProjectDetails = () => {
     return WorkProjects?.find(
       (proj) => proj.projectName.replaceAll(" ", "").toLowerCase() === projectName
     );
-  } , [projectName ,WorkProjects])
+  }, [projectName, WorkProjects])
 
   const nextProject = useMemo(() => {
     const getNextElement = () => {
@@ -75,10 +75,10 @@ const ProjectDetails = () => {
         <div className="my-5">
           <h2 className="text-4xl textAcorn">Code-Detail .</h2>
           <div className="text-2xl textUbuntu text-[#78797c]">
-            <a href={displayedProject.projectRepo} target="_blank" className="hover:text-[#e9e9e9]">
+            <a href={displayedProject.projectRepo} target="_blank" className={`${displayedProject.projectRepo === null ? 'cursor-not-allowed' : ''}hover:text-[#e9e9e9]`} title={`${displayedProject.projectRepo === null ? 'Private Repo' : `${displayedProject.projectName} Repo`}`}>
               GitHub Repo
             </a> | {" "}
-            <a href={displayedProject.projectLiveServer} target="_blank" className="hover:text-[#e9e9e9]">
+            <a href={displayedProject.projectLiveServer} target="_blank" className="hover:text-[#e9e9e9]" title={`${displayedProject.projectName} Live Server`}>
               LiveServer
             </a>
           </div>

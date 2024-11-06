@@ -1,9 +1,49 @@
 {
   "WorkProjects": [
     {
+      "projectName": "Baseline Store",
+      "projectMainImg": "/imgs/BaselineStore.png",
+      "projectOverView": "Baseline is a modern store platform designed to provide a seamless online shopping experience. It features a wide array of products and curated collections, ensuring that customers can find everything they need in one place. The site is built with user experience in mind, featuring an intuitive interface that makes navigation simple and enjoyable. A key aspect of this site is its advanced search functionality, which allows users to easily discover products, collections, and informative blog posts. As users type, they receive real-time suggestions, making it quick to find relevant items and stay updated on the latest trends. In addition to the search feature, Baseline includes a dynamic blog section that offers valuable insights, tips, and stories related to the products and collections, enriching the shopping experience. With a responsive design that caters to all devices, This website is committed to delivering not just products but an engaging shopping journey that encourages exploration and satisfaction.",
+      "projectCaption": "Shop fast and smart with high quality UI and seamless performance!",
+      "projectLiveServer": "https://baseline-inky.vercel.app/",
+      "projectRepo": "https://github.com/abdullahelmetwali/Baseline",
+      "projectTechnologies": [
+        "JavaScript",
+        "NextJS",
+        "ReactJS",
+        "TailwindCSS",
+        "SwiperJS",
+        "RESTAPIs",
+        "SSG",
+        "SSR",
+        "ISR",
+        "CSR"
+      ]
+    },
+    {
+      "projectName": "Dulijan Academy",
+      "projectMainImg": "/imgs/DulijanAcademy.png",
+      "projectOverView": "Dynamic gym website designed to empower individuals on their fitness journey through structured training and user progress tracking. The platform offers a variety of features, including user authentication (Login , Create Account , Forget Password), a diverse range of packages and courses, engaging workout content, and performance optimization tools. With a focus on responsive design, Also provides a seamless experience across devices. Key functionalities include multi-language support (English and Arabic), filtering options, subscription plans, and a user-friendly interface for dark/light mode. The website’s comprehensive routing structure ensures easy navigation through core sections such as Home, About, Courses, Packages, Subscriptions, and Profile management, making it an all-in-one solution for fitness enthusiasts.",
+      "projectCaption": "Where structured training meets personalized progress tracking!",
+      "projectLiveServer": "https://fahadaldulijan.store/",
+      "projectRepo": null,
+      "projectTechnologies": [
+        "JavaScript",
+        "Axios",
+        "ReactJS",
+        "ReactRouter",
+        "CookiesJS",
+        "Redux",
+        "RESTAPIs",
+        "TailwindCSS",
+        "SwiperJS",
+        "i18next"
+      ]
+    },
+    {
       "projectName": "Black Wolf E-Commerce",
       "projectMainImg": "/imgs/BlackWolfECommerceMain.png",
-      "projectOverView": "I made this platform, and so improved performance by optimizing search functionalities, cart management processes, and product retrieval speeds. My enhancements include introducing animations across the site to enhance user engagement and navigation. Users now receive immediate error messages when attempting to add out-of-stock or duplicate products to their carts. I have expanded all products offerings to cater to a broader range of user interests, and streamlined the process for easily adding items from both the homepage and product pages. Additionally, I have developed new user views such as 'About,' 'Account,' and 'Register' pages, integrating seamless account creation and management through REST API. Our product catalog now features intuitive filters and detailed product information, ensuring a consistently responsive design that optimizes the user experience for all.",
+      "projectOverView": "I made this platform, and so improved performance by optimizing search functionalities, cart management processes, and product retrieval speeds. My enhancements include introducing animations across the site to enhance user engagement and navigation. Users now receive immediate error messages when attempting to add out-of-stock or duplicate products to their carts. I have expanded all products offerings to cater to a broader range of user interests, and streamlined the process for easily adding items from both the homepage and product pages. Additionally, I have developed new user views such as 'About,' 'Account,' and 'Register' pages, integrating seamless account creation and management through REST API. The product catalog now features intuitive filters and detailed product information, ensuring a consistently responsive design that optimizes the user experience for all.",
       "projectCaption": "When effortless shopping meets sleek design on a website ...",
       "projectLiveServer": "https://black-wolf-ecommerce.netlify.app/",
       "projectRepo": "https://github.com/abdullahelmetwali/BlackWolfECommerce",
@@ -28,7 +68,7 @@
         "JavaScript",
         "JSON",
         "Vite",
-        "React",
+        "ReactJS",
         "ReactRouter",
         "TailwindCSS"
       ]
@@ -42,7 +82,7 @@
       "projectRepo": "https://github.com/abdullahelmetwali/GymNoter",
       "projectTechnologies": [
         "JavaScript",
-        "React",
+        "ReactJS",
         "Redux",
         "ReactRouter",
         "TailwindCSS",
@@ -71,7 +111,12 @@
       "projectCaption": "Take a CLASSY dinner, In CLASSY site .",
       "projectLiveServer": "https://abdullahelmetwali.github.io/FoodZeroRestaurant/",
       "projectRepo": "https://github.com/abdullahelmetwali/FoodZeroRestaurant",
-      "projectTechnologies": ["HTML", "CSS", "SCSS", "JavaScript"]
+      "projectTechnologies": [
+        "HTML",
+        "CSS",
+        "SCSS",
+        "JavaScript"
+      ]
     },
     {
       "projectName": "Eduford University",
@@ -80,7 +125,10 @@
       "projectCaption": "Old is Gold .",
       "projectLiveServer": "https://abdullahelmetwali.github.io/university-small-website/",
       "projectRepo": "https://github.com/abdullahelmetwali/university-small-website",
-      "projectTechnologies": ["HTML", "CSS"]
+      "projectTechnologies": [
+        "HTML",
+        "CSS"
+      ]
     }
   ],
   "FunProjects": [
@@ -129,9 +177,13 @@
       {
         "question": "What technologies do you use?",
         "answers": [
-          "Here's what I use",
-          "HTML, CSS, JavaScript, SCSS (Sass), ReactJS (including React Router & Redux ), VueJS (including Vuex ), TailwindCSS for styling.",
-          "NPM for package management , Vite for project building and Jest for testing."
+          "I specialize in modern web and mobile technologies, focused on creating responsive and high-performance applications.",
+          "HTML, CSS, JavaScript, and TypeScript, with SCSS (Sass) and TailwindCSS for efficient and responsive styling.",
+          "Proficient in ReactJS with React Router and Redux for advanced state management, React Native for cross-platform mobile applications, and VueJS with Vuex for creating dynamic, data-driven interfaces.",
+          "Additionally leveraging SSG, SSR, CSR, and ISR in Next.js for high performance and enhanced SEO optimization.",
+          "Skilled in using Git, GitHub for version control, and Postman for efficient API testing and management. Experienced with Axios for handling API requests and i18next for managing multilingual content.",
+          "Familiar with Figma for collaborative design as a developer.",
+          "NPM for streamlined dependency management and Jest for robust unit and integration testing."
         ]
       },
       {
@@ -142,6 +194,7 @@
           "My second step was getting a training opportunity at Reeras Technologies, where I gained practical experience in HTML and CSS. After that, I continued learning on my own, deepening my knowledge and expanding my skills.",
           "Currently, I am a Front-End Intern at NexusDevops, where I have been working since June 29, 2024. In addition, I hold another Front-End Internship at Azzrk, starting from July 7, 2024. These roles have provided me with valuable hands-on experience and the opportunity to work on real-world projects.",
           "Additionally, I am part of a Front-End team at Hackathon Group, working on an exciting project.",
+          "Additionally, I'm in NTI training course for gaining more and more about Frontend field.",
           "Believing in Allah and with a passion for continuous learning, my journey in front-end development continues to evolve."
         ]
       },
@@ -155,9 +208,10 @@
       {
         "question": "Have you integrated any third-party APIs into your projects?",
         "answers": [
-          "Sure , I've integrated several third-party APIs into my projects",
-          "I use it to enchance functionality and accessing more external data. For example, I've use RapidAPI for getting all exercises and full-detail exercise instructions, And also I used DummyJsonAPI , to get users and create a user",
-          "It's important for ensuring proper error handling and data formatting to seamlessly integrate with my applications."
+          "Absolutely, I’ve integrated several third-party APIs to enhance functionality and access external data.",
+          "Ensuring smooth integration, I prioritize proper error handling and data formatting to maintain seamless application performance.",
+          "Additionally, I leverage Postman for testing API requests and Axios within ReactJS applications for efficient data fetching and error handling.",
+          "When working with NextJS, I often use the native JavaScript Fetch API for optimal performance and server-side capabilities."
         ]
       },
       {

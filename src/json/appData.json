@@ -8,6 +8,7 @@
       "projectLiveServer": "https://baseline-inky.vercel.app/",
       "projectRepo": "https://github.com/abdullahelmetwali/Baseline",
       "projectTechnologies": [
+        "TypeScript",
         "JavaScript",
         "NextJS",
         "ReactJS",

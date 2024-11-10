@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, NavLink, useParams } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route, NavLink, useParams, useLocation } from "react-router-dom"
 import Work from "./views/Work"
 import About from './views/About'
 import ProjectDetails from "./components/ProjectDetails"
@@ -25,6 +25,7 @@ const App = () => {
   return (
     <>
       <Router>
+        <LocationWrapper />
         <header>
           <nav className="flex justify-center items-center py-12">
             <ul className={`w-fit flex gap-8 items-center fixed px-7 py-2 rounded-3xl z-20 ${scrollY > 80 ? 'blured' : ' bg-inherit'} mob:gap-3`}>
@@ -47,6 +48,19 @@ const App = () => {
       <Footer />
     </>
   )
-}
+};
 
+const LocationWrapper = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'instant'
+    });
+  }, [pathname]);
+
+  return null;
+};
 export default App

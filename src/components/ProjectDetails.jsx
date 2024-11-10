@@ -45,6 +45,7 @@ const ProjectDetails = () => {
             src={displayedProject.projectMainImg}
             alt={displayedProject.projectName}
             className="rounded-xl"
+            loading="lazy"
           />
         </div>
       </section>

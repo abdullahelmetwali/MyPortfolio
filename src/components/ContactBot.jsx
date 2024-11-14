@@ -27,7 +27,7 @@ const ContactBot = (props) => {
 
   const handleQuestionClick = (question) => {
     setLastQuestion(nowQuestion);
-    const filteredAnsw = nowAnswers.filter(ans => ans !== "abdullahelmetwali@icloud.com")
+    const filteredAnsw = nowAnswers.filter(ans => ans !== "abdullahelmetwali@gmail.com")
     setLastAnswers(filteredAnsw)
     const quesObj =
       BotData.botAnswers.find((answer) => answer.question === question) || {};
@@ -43,7 +43,7 @@ const ContactBot = (props) => {
           setVisibleAnswers((prev) => [...prev, answer]);
         },
         (index + 1) * 1000 // Show each answer one by one every second
-      ); 
+      );
     });
   };
 
@@ -56,7 +56,7 @@ const ContactBot = (props) => {
           <h2 className="textAcorn text-xl">Here&apos;s, Abdullah&apos;s Bot.</h2>
           <p className="text-sm">Ask me a question.</p>
         </div>
-        <img 
+        <img
           src={CloseSvg}
           onClick={() => botView()}
           className=" cursor-pointer"
@@ -85,15 +85,15 @@ const ContactBot = (props) => {
                 </span>
               </div>
               {visibleAnswers.map((answer, answerInd) => (
-            <div key={answerInd} className="grid">
-              {
-              answer !== "abdullahelmetwali@icloud.com" ? <p className="bg-[#373737a1] px-4 py-2 my-1 w-fit rounded-lg" key={answerInd}> {answer} </p> 
-              : <a href={`mailto:${answer}`} target="_blank" className='border-[#5e5e5ec0] cursor-pointer border-[1px] px-4 py-2 my-1  w-fit rounded-full'> Send Message </a> 
-            }
+                <div key={answerInd} className="grid">
+                  {
+                    answer !== "abdullahelmetwali@gmail.com" ? <p className="bg-[#373737a1] px-4 py-2 my-1 w-fit rounded-lg" key={answerInd}> {answer} </p>
+                      : <a href={`mailto:${answer}`} target="_blank" className='border-[#5e5e5ec0] cursor-pointer border-[1px] px-4 py-2 my-1  w-fit rounded-full'> Send Message </a>
+                  }
+                </div>
+              ))}
             </div>
-          ))}
-            </div>
-              
+
           )}
         </div>
         {showBotQuestions && (
